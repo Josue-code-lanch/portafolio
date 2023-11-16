@@ -1,0 +1,24 @@
+html {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+    background-color: #db965d;
+    margin: 0;
+}
+
+#titulo {
+    background-color: #aa5730;
+    color: white;
+    margin-top: 0px;
+    padding: 40px;
+    text-align: center;
+    border: 0px solid black;
+    font-size: 2.7rem;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    border-radius: 50px 0px;
+}
