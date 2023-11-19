@@ -1,9 +1,10 @@
 html {
     font-family: 'Montserrat', sans-serif; 
+    font-size: 17px;
 }
 
 body {
-    background-color: #db965d;
+    background-color: #f1d4bc;
     margin: 0;
 }
 
@@ -14,11 +15,56 @@ body {
     padding: 40px;
     text-align: center;
     border: 0px solid black;
-    font-size: 2.7rem;
+    font-size: 2.9rem;
 }
 
-img {
+.foto1 {
+    margin: 0 380px;
     width: 450px;
     height: 300px;
-    border-radius: 50px 0px;
+    border-radius: 50px 0;
+    box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.foto1:hover {
+    transform: scale(1.05,1.05);
+}
+
+.foto2 {
+    float: right;
+    width: 450px;
+    height: 270px;
+    margin-right: 50px;
+    border-radius: 50px 10px 50px 70px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.foto2:hover {
+    transform: scale(1.05,1.05);
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    padding: 7px;
+}
+
+th {
+    background-color: #aa5730;
+    color: white;
+}
+
+td {
+    background-color: antiquewhite;
 }
