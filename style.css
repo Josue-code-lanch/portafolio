@@ -8,6 +8,38 @@ body {
     margin: 0;
 }
 
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #d09173;
+}
+
+header li {
+    float: right;
+    transition: 0.3s ease;
+}
+
+header li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header li a {
+    display: block;
+    padding: 11.4px;
+    text-decoration: none;
+    color: black;
+}
+
+.barra {
+    width: 71%;
+    position: fixed;
+    background-color: #d09173;
+}
+
 #titulo {
     background-color: #aa5730;
     color: white;
@@ -67,4 +99,19 @@ th {
 
 td {
     background-color: antiquewhite;
+}
+
+footer{
+    background-color: #373434;
+    padding: 3rem;
+    color: white;
+}
+
+footer div {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    display: inline;
 }
