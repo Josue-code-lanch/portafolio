@@ -8,60 +8,55 @@ body {
     margin: 0;
 }
 
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.barra {
+    background-color: #2a262e;
     position: fixed;
     width: 100%;
-    background-color: #d09173;
+    color: rgb(126, 114, 99);
+    margin-top: 0;
+    padding: 5px;
 }
 
-header li {
+.barra ul {
+    margin: 0;
+}
+
+.barra ul li {
+    list-style: none;
+    display: inline;
     float: right;
-    transition: 0.3s ease;
+    padding: 1rem;
+    margin: 5px;
 }
 
-header li:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-header li a {
-    display: block;
-    padding: 11.4px;
+.barra a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.barra {
-    width: 71%;
-    position: fixed;
-    background-color: #d09173;
+.barra li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
 }
 
 #titulo {
     background-color: #aa5730;
     color: white;
-    margin-top: 0px;
-    padding: 40px;
+    padding: 8rem 7rem 4rem 7rem;
     text-align: center;
-    border: 0px solid black;
     font-size: 2.9rem;
+    margin-top: 0;
 }
 
 .foto1 {
-    margin: 0 380px;
-    width: 450px;
-    height: 300px;
-    border-radius: 50px 0;
-    box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.3);
-    transition: 0.3s;
-    cursor: pointer;
+    text-align: center;
+    padding: 5px;
 }
 
-.foto1:hover {
-    transform: scale(1.05,1.05);
+.foto1 img {
+    cursor: pointer;
+    border-radius: 50px 0 110px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
 }
 
 .foto2 {
@@ -70,13 +65,8 @@ header li a {
     height: 270px;
     margin-right: 50px;
     border-radius: 50px 10px 50px 70px;
-    transition: 0.3s ease;
     cursor: pointer;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
-}
-
-.foto2:hover {
-    transform: scale(1.05,1.05);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
 }
 
 table {
@@ -109,6 +99,7 @@ footer{
 
 footer div {
     float: right;
+    text-align: center;
 }
 
 footer p {
