@@ -13,25 +13,22 @@ body {
     position: fixed;
     width: 100%;
     color: rgb(126, 114, 99);
-    margin-top: 0;
-    padding: 5px;
-}
-
-.barra ul {
     margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.barra ul li {
-    list-style: none;
-    display: inline;
+.barra li {
     float: right;
-    padding: 1rem;
-    margin: 5px;
+    list-style-type: none;
 }
 
-.barra a {
+.barra li a {
     text-decoration: none;
     color: white;
+    display: block;
+    text-align: center;
+    padding: 14px;
 }
 
 .barra li:hover {
