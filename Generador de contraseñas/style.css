@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(38, 37, 36);
+}
+
+#container {
+    text-align: center;
+    background-color: rgb(231, 226, 209);
+    border-radius: 5px;
+    color: rgb(19, 75, 75);
+    padding: 30px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 200px;
+    margin-left: 280px;
+    margin-top: 110px;
+}
+
+#container p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 66, 66);
+}
