@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Pagina de recetas
 
 ![Vista previa del diseño para el desafío de codificación de la página de recetas](./design/desktop-preview.jpg)
 
@@ -22,7 +22,7 @@ Puedes usar cualquier herramienta que desees para ayudarte a completar el desaf�
 
 Su tarea es construir el proyecto con los diseños dentro de la carpeta `/design`. Encontrarás una versión móvil y otra de escritorio del diseño. 
 
-Los diseños están en formato JPG estático. `font-size`, `padding` and `margin`. 
+Los diseños están en formato JPG estático. El uso de JPG significará que tendrás que usar tu mejor criterio para estilos como `font-size`, `padding` y `margin`. 
 
 Si desea que los archivos de diseño (proporcionamos versiones de Sketch y Figma) inspeccionen el diseño con más detalle, puede hacerlo [suscríbete a la membresía Premium](https://www.frontendmentor.io/pro).
 

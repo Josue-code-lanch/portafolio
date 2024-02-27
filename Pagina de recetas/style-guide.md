@@ -21,7 +21,7 @@ Los diseños se crearon en los siguientes anchos:
 - Eggshell: hsl(30, 54%, 90%)
 - Light Grey: hsl(30, 18%, 87%)
 - Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)
+- Dark Charcoal: hsl(24, 5%, 18%) 
 
 ## Tipografía
 

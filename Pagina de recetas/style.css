@@ -1,47 +1,131 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young-serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* Media query para móviles (375px) */
 @media only screen and (max-width: 375px) {
     body {
         font-size: 14px;
-        /* Estilos específicos para pantallas móviles aquí */
+    }
+
+    #container {
+        padding: 10px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
     }
 }
-/* Media query para escritorio (1440px) */
-@media only screen and (min-width: 376px) and (max-width: 1440px) {}
+
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    #container {
+        max-width: 800px;
+        margin: 100px auto;
+    }
+}
 
 /* Estilos base para todos los tamaños de pantalla */
 body {
     font-size: 16px;
     background-color: hsl(30, 54%, 90%);
-    margin: 50px;
-}
-
-#omelette {
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
 }
 
 #container {
-    width: 400px;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
     background-color: white;
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 15px;
+    color: hsl(30, 10%, 34%);
 }
 
-#container .time h3{
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Young-serif';
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%)
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.time h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+}
+
+.time ul li::marker {
     color: hsl(332, 51%, 32%);
 }
 
-#container li {
-    margin-bottom: 10px;
-    list-style-type: style circle hsl(332, 51%, 32%);
+li::marker {
+    color: hsl(14, 45%, 36%)
 }
 
-#container .time {
-    background-color: hsl(330, 100%, 98%);
-    padding: 20px;
-    border-radius: 10px;
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding: 10px;
+}
+
+td.tabla {
+    color: hsl(14, 45%, 36%)
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+footer .attribution {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(14, 45%, 36%);
 }
