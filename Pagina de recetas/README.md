@@ -17,7 +17,7 @@ Esta es una solución a la [Desafío de la página de recetas de Frontend Mentor
 
 ### Links
 
-- Solución URL: [Agregar la URL de la solución aquí](https://your-solution-url.com)
+- Solución URL: [Agregar la URL de la solución aquí](https://www.frontendmentor.io/profile/Josue-code-lanch/solutions)
 - Sitio en vivo URL: [Agrega la URL del sitio en vivo aquí](https://recetasdelaabu.netlify.app/)
 
 ## Mi proceso
