@@ -1,0 +1,47 @@
+
+/* Media query para móviles (375px) */
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 14px;
+        /* Estilos específicos para pantallas móviles aquí */
+    }
+}
+/* Media query para escritorio (1440px) */
+@media only screen and (min-width: 376px) and (max-width: 1440px) {}
+
+/* Estilos base para todos los tamaños de pantalla */
+body {
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    margin: 50px;
+}
+
+#omelette {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#container .time h3{
+    color: hsl(332, 51%, 32%);
+}
+
+#container li {
+    margin-bottom: 10px;
+    list-style-type: style circle hsl(332, 51%, 32%);
+}
+
+#container .time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
