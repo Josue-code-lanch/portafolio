@@ -1,15 +1,15 @@
 # Front-end Style Guide
 
-## Layout
+## Diseño
 
-The designs were created to the following widths:
+Los diseños se crearon en los siguientes anchos:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+## Colores
 
-### Primary
+### Primario
 
 - Dark cyan: hsl(158, 36%, 37%)
 - Cream: hsl(30, 38%, 92%)
@@ -24,7 +24,7 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 14px
+- Font size (parrafos): 14px
 
 ### Font
 
